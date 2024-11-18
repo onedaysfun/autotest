@@ -1,0 +1,21 @@
+./base perf run -n copy_paste_records --url https://e5test1655436560.larkoffice.com/base/LiqcbrUT4apR2XsIHqEcsBp8nye\?table\=tblWJp4uY1Yc87HI\&view\=vewkagpugL -s XN0YXJ0-d46hf6ff-eed2-490b-a027-b2d8d74157d1-WVuZA --userid 7073301286489178113 -p is_debug=true -p record_num_all=200000 -p record_num_batch=2000  -p is_stress=false -p is_random=true -p sleep_time=10
+
+压测：https://yalixw0asad.feishu.cn/base/FCqLbXUmsaBENKsOl0fcr9IwnHc\?table\=tblFLKhlQVCnKzWa\&view\=veweWWBbLx\&v\=1.0.14.7012\&vb\=1.0.4.4693
+./base perf run -n copy_paste_records --url https://yalixw0asad.feishu.cn/base/D3DNb6cCsaaL7fsmvVMc3szsnkb\?table\=tbl1AwUdeixdj2fl\&view\=veweWWBbLx -s XN0YXJ0-96fo3706-aca6-435d-90a4-fbbcb6bc567f-WVuZA --userid 7307139583094784002 -p is_debug=true -p record_num_all=1000000 -p record_num_batch=2000  -p is_stress=true -p is_random=true -p sleep_time=10 -p is_pre_release=true
+
+
+
+
+
+内存态验证：20w-低 https://e5test1655436560.larkoffice.com/base/JOUIbh7FLaJ9DAsQTSNcymsynKc?table=tblpwKezK8fomQW0&view=vew5jZ73N5
+
+./base perf run -n copy_paste_records --url https://e5test1655436560.larkoffice.com/base/QG9tbKmHGaJXbksEZ54ciwaqnyh\?table\=tblzxw6OOdGYcqPl\&view\=vew5jZ73N5 -s XN0YXJ0-d46hf6ff-eed2-490b-a027-b2d8d74157d1-WVuZA --userid 7073301286489178113 -p is_debug=true -p record_num_all=200000 -p record_num_batch=2000  -p is_stress=false -p is_random=true -p sleep_time=10 -p is_pre_release=true
+
+
+boe样张：
+./base perf run -n copy_paste_records --url https://bytedance.feishu-boe.net/base/D2fkbqJKBaNeUKsgWVBbPLHUcb9\?v\=1.0.14.7012\&vb\=1.0.4.4693\&table\=tblgCSBYkX4W7vit\&view\=vewoxeIhWL -s XN0YXJ0-442o1bf7-ab2f-4a3a-ac1e-51c42c1056og-WVuZA --userid 7091186056053129235 -p is_debug=true -p record_num_all=1000000 -p record_num_batch=2000  -p is_stress=false -p is_random=true -p sleep_time=20 -p env_name="boe_big_sql_new"
+
+
+./base perf run -n copy_paste_records --url https://e5test1655436560.larkenterprise.com/base/R26Fbq6PTap5PTsm6qNcwYOFnFg\?table\=tbl24jpnSEcA9gLD\&view\=vewxDUruRQ -s XN0YXJ0-e9aqe79e-f898-45cb-b2e1-4ea898f86b2b-WVuZA  -p is_debug=false -p record_num_all=110000 -p record_num_batch=2000  -p is_random=true -p is_stress=false  -p sleep_time=10
+./base perf run -n copy_paste_records --url https://e5test1655436560.larkenterprise.com/base/KQwJbzpMtaF70es1KCaci3V1nte\?table\=tbl8PTL22AWMBRhO\&view\=vewXPPR5i9 -s XN0YXJ0-e9aqe79e-f898-45cb-b2e1-4ea898f86b2b-WVuZA  -p is_debug=false -p record_num_all=110000 -p record_num_batch=2000  -p is_random=true -p is_stress=false  -p sleep_time=5
+./base perf run -n copy_paste_records --url https://bitable-test.feishu-boe.cn/base/IbyBbLBQLadZdgsdnT7bZq8Xcag\?table\=tbls0pbsEvBOP0Lw\&view\=vewkMoC8Ge -s XN0YXJ0-0bai0bac-b9b6-4d4d-826a-de57815cbfin-WVuZA  -p is_debug=false -p record_num_all=40000 -p record_num_batch=2000  -p is_random=true -p is_stress=false  -p sleep_time=2

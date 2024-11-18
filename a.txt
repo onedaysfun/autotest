@@ -1,0 +1,118 @@
+获取clientvars, baseToken: Zz8ZbXAKuaA4Pms69KzbkFURcod, tableToken: tbl2ytW5rjfvcNQp, viewId:vewkagpugL, returns:[status] 200 OK, [logid] 2024061316035987FC58F3C1FB470194B8
+Trace 2024-06-13 16:04:03.674 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=42415 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265843632248 write_size=14278 language=go component_version=1.4.19 retry=0 offset=2416805 sampled=false spanID=5a0edd04d68463e0 parentSpanID=0
+Info 2024-06-13 16:04:03,675 v1(7) monitor.go:566 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [ReportDebugTrace] stageId:1 step:9 traceData:Trace 2024-06-13 16:04:02.652 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=18960 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265842633221 write_size=13602 language=go component_version=1.4.19 retry=0 offset=2416804 sampled=false spanID=5a0edd04d68463df parentSpanID=0
+Info 2024-06-13 16:04:02,652 v1(7) monitor.go:566 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [ReportDebugTrace] stageId:1 step:9 traceData:Trace 2024-06-13 16:04:01.647 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=15030 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265841632175 write_size=12926 language=go component_version=1.4.19 retry=0 offset=2416803 sampled=false spanID=5a0edd04d68463de parentSpanID=0
+Info 2024-06-13 16:04:01,647 v1(7) monitor.go:566 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [ReportDebugTrace] stageId:1 step:9 traceData:Info 2024-06-13 16:04:00,642 v1(7) monitor.go:566 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [ReportDebugTrace] stageId:1 step:9 traceData:Trace 2024-06-13 16:03:59.643 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=10761 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839632772 write_size=11574 language=go component_version=1.4.19 retry=0 offset=2416801 sampled=false spanID=5a0edd04d68463dc parentSpanID=0
+Info 2024-06-13 16:03:59,643 v1(7) monitor.go:566 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [ReportDebugTrace] stageId:1 step:9 traceData:Info 2024-06-13 16:03:58,631 v1(7) plugin_client.go:67 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 start opening plugin, fileName: /tmp/_184292/1/file/plugin/larkqa/base/base_perf_plugin/larkqa_base_base_perf_plugin/1.0.0.211
+Info 2024-06-13 16:03:58,631 v1(7) plugin_client.go:69 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 open plugin now, fileName: /tmp/_184292/1/file/plugin/larkqa/base/base_perf_plugin/larkqa_base_base_perf_plugin/1.0.0.211
+[Metrics(v3)] using socket path: /opt/tmp/sock/metric_sdk1_seqpacket.sock
+[Metrics(v3)] using socket path: /opt/tmp/sock/metric_sdk1_seqpacket.sock
+进行kitex的初始化
+ETCD: use bagent to access ETCD
+[Metrics(v3)] using socket path: /opt/tmp/sock/metric_sdk1_seqpacket.sock
+time="2024-06-13T16:03:59+08:00" level=warning msg="walkUnitInfoFiles failed, try read unit info from env, error: lstat /opt/tiger/ee/conf/ares/vars/: no such file or directory"
+time="2024-06-13T16:03:59+08:00" level=info msg="read unit info from env failed, env RUNTIME_UNIT_NAME is empty"
+time="2024-06-13T16:03:59+08:00" level=info msg="read unit info from env failed, env RUNTIME_UNIT_NAME is empty"
+time="2024-06-13T16:03:59+08:00" level=warning msg="walkUnitInfoFiles failed, try read unit info from env, error: lstat /opt/tiger/ee/conf/ares/vars/: no such file or directory"
+time="2024-06-13T16:03:59+08:00" level=info msg="read unit info from env failed, env RUNTIME_UNIT_NAME is empty"
+time="2024-06-13T16:03:59+08:00" level=info msg="read unit info from env failed, env RUNTIME_UNIT_NAME is empty"
+[Metrics(v3)] using socket path: /opt/tmp/sock/metric_sdk1_seqpacket.sock
+KITC: open service mesh egress mode, proxy address: /opt/tiger/toutiao/var/service/toutiao.serverqa.performance_trigger.mesh/rpc.egress.sock, use shmipc:true 
+time="2024-06-13T16:03:59+08:00" level=warning msg="bearedge: get EdgeProxy.RPC from ee/conf/ares err: not found unknown_unit/config.unknown_unit.staging.y(a)ml or config.unknown_unit.staging.y(a)ml in /opt/tiger/ee/conf/ares"
+time="2024-06-13T16:03:59+08:00" level=warning msg="bearedge: new edge proxy failed psm: is invalid: \"\""
+[Metrics(v3)] using socket path: /opt/tmp/sock/metric_sdk1_seqpacket.sock
+GINEX: http mesh is enabled.
+注册 archive_process 压测worker.
+注册 archive_process 压测worker.
+注册 copy_table 压测worker.
+注册 fetch_miss 压测worker.
+注册 get_snapshot 压测worker.
+注册 波峰波谷流量 压测worker.
+注册 huge_cs 压测worker.
+注册 one_doc_batch_cs 压测worker.
+注册 global_filter 压测worker.
+注册 add_records 压测worker.
+注册 adv_open_and_add_role 压测worker.
+注册 archive_toggle 压测worker.
+注册 copy_paste_records 压测worker.
+注册 gen_copy_table 压测worker.
+注册 fill_data 压测worker.
+注册 gen_archive_table 压测worker.
+注册 gen_archive_table2 压测worker.
+注册 unarchive_records 压测worker.
+注册 sonic_json_diff 压测worker.
+注册 sonic_json_diff 压测worker.
+注册 mg_migrate 压测worker.
+注册 mg_migrate 压测worker.
+注册 add_field 压测worker.
+注册 change_auto_number_field 压测worker.
+注册 client_vars_ondemand 压测worker.
+注册 distinct_field 压测worker.
+注册 get_group_infos 压测worker.
+注册 get_ondemand_reccords 压测worker.
+注册 get_stat_infos 压测worker.
+注册 paste 压测worker.
+注册 related_field 压测worker.
+注册 search_records 压测worker.
+注册 pt_base 压测worker.
+注册 pt_dashboard 压测worker.
+注册 delete_field 压测worker.
+注册 delete_fields 压测worker.
+注册 update_field 压测worker.
+注册 update_fields 压测worker.
+注册 get_cells 压测worker.
+注册 background 压测worker.
+注册 batch_cs 压测worker.
+注册 common_func_perf 压测worker.
+注册 multi_clone 压测worker.
+注册 open 压测worker.
+注册 sence 压测worker.
+注册 set_record 压测worker.
+Info 2024-06-13 16:03:59,195 v1(7) log.go:34 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [RuleEngine] mq meta center psm: sinf.middleware.mq_rule
+init方法
+Info 2024-06-13 16:03:59,202 v1(7) stress_testing.go:51 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [Stress testing] IsTcePerfTest: false. Nsq white list: map[]
+sarama log dir: /var/log/tiger/sarama
+Info 2024-06-13 16:03:59,256 v1(7) tmq.go:107 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 InitKafkaSyncProducerManualPartitioner NewSyncProducerWithClusterName end, err=<nil>
+Info 2024-06-13 16:03:59,256 v1(7) plugin_client.go:75 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 open plugin successfully, fileName: /tmp/_184292/1/file/plugin/larkqa/base/base_perf_plugin/larkqa_base_base_perf_plugin/1.0.0.211
+Info 2024-06-13 16:03:59,256 v1(7) plugin_client.go:79 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 lookup plugin init method success
+Info 2024-06-13 16:03:59,256 v1(7) handler.go:429 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 lookup plugin init method success
+Info 2024-06-13 16:03:59,256 v1(7) handler.go:450 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [task]request.GenerateRequest,id: 1, execId: 184292
+Trace 2024-06-13 16:03:59.273 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=16149 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839257170 write_size=178 language=go component_version=1.4.19 retry=0 offset=2416792 sampled=false spanID=5a0edd04d68463d3 parentSpanID=0
+Trace 2024-06-13 16:03:59.283 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=9528 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839273579 write_size=184 language=go component_version=1.4.19 retry=0 offset=2416793 sampled=false spanID=5a0edd04d68463d4 parentSpanID=0
+Trace 2024-06-13 16:03:59.293 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=9889 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839283241 write_size=185 language=go component_version=1.4.19 retry=0 offset=2416794 sampled=false spanID=5a0edd04d68463d5 parentSpanID=0
+Trace 2024-06-13 16:03:59.312 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=19177 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839293337 write_size=164 language=go component_version=1.4.19 retry=0 offset=2416795 sampled=false spanID=5a0edd04d68463d6 parentSpanID=0
+Trace 2024-06-13 16:03:59.322 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=9793 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839312806 write_size=170 language=go component_version=1.4.19 retry=0 offset=2416796 sampled=false spanID=5a0edd04d68463d7 parentSpanID=0
+Trace 2024-06-13 16:03:59.332 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=9668 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839322776 write_size=165 language=go component_version=1.4.19 retry=0 offset=2416797 sampled=false spanID=5a0edd04d68463d8 parentSpanID=0
+Trace 2024-06-13 16:03:59.342 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=9877 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839332762 write_size=164 language=go component_version=1.4.19 retry=0 offset=2416798 sampled=false spanID=5a0edd04d68463d9 parentSpanID=0
+Init方法，我比init方法后执行, 只执行一次，我有入参。m=> map[doc_file_name:ondemand_urls_boe.csv duration:0 env_name:boe_big_sql exec_id:184292 is_debug:false is_stress:false machineCount:1 machine_id:0 machine_size:1 mesh_tag: mock_tag: stress_tag:performance-79ebfb7b-4cc8-73d3-b241-5020f82589be task_id:26300 testFun:client_vars_ondemand user_file_name:boe_top_10_user.csv]
+taskid=26300, exec_id=184292, mockTag=, meshTag=, stressTag=performance-79ebfb7b-4cc8-73d3-b241-5020f82589be
+初始 runCnt:  85
+Info 2024-06-13 16:03:59,343 v1(7) handler.go:487 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [task] response.GenerateResponse,id: 1, execId: 184292
+Info 2024-06-13 16:03:59,344 v1(7) handler.go:528 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [task] send.GenerateSend,id: 1, execId: 184292
+Info 2024-06-13 16:03:59,344 v1(7) task.go:41 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [task] StartTask, source: , execId: 184292
+Info 2024-06-13 16:03:59,344 v1(7) handler.go:588 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [task] start task now, execId=184292
+Info 2024-06-13 16:03:59,344 v1(7) request.go:617 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [task] Start Request
+Trace 2024-06-13 16:03:59.355 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=9893 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839345720 write_size=675 language=go component_version=1.4.19 retry=0 offset=2416799 sampled=false spanID=5a0edd04d68463da parentSpanID=0
+Trace 2024-06-13 16:03:59.365 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=9811 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265839355830 write_size=143 language=go component_version=1.4.19 retry=0 offset=2416800 sampled=false spanID=5a0edd04d68463db parentSpanID=0
+not match map in local cache file...... docUrl: https://bytedance.feishu-boe.net/base/Zz8ZbXAKuaA4Pms69KzbkFURcod?v=1.0.14.7012&vb=1.0.4.4693&table=tbl2ytW5rjfvcNQp&view=vewkagpugL&chunked=false
+CheckFlagExist...
+BeforeAll...
+LogID: 20240613160359010225154038422B8FD args:[] args:[]
+Trace 2024-06-13 16:04:00.642 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=10237 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265840632130 write_size=12250 language=go component_version=1.4.19 retry=0 offset=2416802 sampled=false spanID=5a0edd04d68463dd parentSpanID=0 args:[] args:[] args:[]
+2024061316035987FC58F3C1FB470194B8---{"code":0,"msg":"success","data":{"timeZone":"Asia/Shanghai","costInfo":{"inRecordsNumPricingFG":false,"quotaInfos":{"base_integration_syncbase":true,"bitable_archive_rows":1000000,"bitable_archive_en
+Trace 2024-06-13 16:04:04.081 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=10609 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265844070957 write_size=133 language=go component_version=1.4.19 retry=0 offset=2416806 sampled=false spanID=5a0edd04d68463e1 parentSpanID=0
+Trace 2024-06-13 16:04:04.091 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=19871 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265844071317 write_size=146 language=go component_version=1.4.19 retry=0 offset=2416807 sampled=false spanID=5a0edd04d68463e2 parentSpanID=0
+Trace 2024-06-13 16:04:04.101 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=10216 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265844091361 write_size=293 language=go component_version=1.4.19 retry=0 offset=2416808 sampled=false spanID=5a0edd04d68463e3 parentSpanID=0
+Info 2024-06-13 16:04:04,101 v1(7) monitor.go:566 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [ReportDebugTrace] stageId:1 step:-1 traceData:{"stage_id":"1","api_info":{"api_name":"plugin","api_latency_time":"4.704719335s","log_id":"02171826583926300000000000000000000ffff0ae19a2676b59a","argos_url":""}} args:[]
+Trace 2024-06-13 16:04:04.111 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=9606 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265844101812 write_size=153 language=go component_version=1.4.19 retry=0 offset=2416809 sampled=false spanID=5a0edd04d68463e4 parentSpanID=0
+Info 2024-06-13 16:04:04,121 v1(7) monitor.go:566 10.225.154.38 toutiao.serverqa.performance_trigger - default single_dc 0 [ReportDebugTrace] stageId:1 step:14 traceData:[finish] api调用正常结束 args:[true]
+Trace 2024-06-13 16:04:04.121 call.go:0 toutiao.serverqa.performance_trigger 10.225.154.38  default single_dc type=rpcCall cost=9808 status=0 localMethod=toutiao.bmq.rhino_debug_log_new remoteService=toutiao.bmq.rhino_debug_log_new remoteMethod=Consumer remoteCluster=bmq_boe_test remoteAddress=[2605:340:cd50:2000:263e:2f9f:99a5:828f]:9987 start_at=1718265844111706 write_size=138 language=go component_version=1.4.19 retry=0 offset=2416810 sampled=false spanID=5a0edd04d68463e5 parentSpanID=0
+
+
+[response] 接收到返回值, value:
+
+[{"type":"","token":"tbl4jq69UijrReyX","user_token":"","localRev":106,"user_id":7091186056053129235,"operations":"H4sIAAAAAAAA/2yOzWrDMBCE32XOouCfOrGuDYFAT0lbAsEHWdqCUid25bXTIPTuRap7y2l3Z2aH7+Sh+8tFXQ
+
+
+
+./base perf run -n batch_cs --url https://bytedance.feishu-boe.net/base/GvlEbbGZ4ajMlesPO4CbXVGtcLh\?table\=tbl4jq69UijrReyX\&view\=vew9dFpXi3 --userfile=/Users/bytedance/Downloads/history-applyeditor.csv -p batch_cs_number=2 -p action_count_in_cs=1 -p action_type_in_cs=regular_rec_set -p field_name=双向关联 -p rec_id=recuiLEF4VN3M3 -p is_random=true -p is_stress=false -p is_debug=true -p env_name=boe_songbin_debug -p with_multi_users=true

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="bitableind@boecn" uuid="a43333be-8051-4e99-ab92-9ee392087375">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://address=(protocol=tcp)(host=fdbd:dc03:ff:501:29cd:57db:5656:ddfb)(port=3306)/bitableind</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="sheet_support_block@boecn" uuid="c48e7d98-23f7-4423-b051-fdb112f15ac8">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://address=(protocol=tcp)(host=fdbd:dc02:ff:1:9:225:246:174)(port=3306)/sheet_support_block</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitableind@boeva" uuid="c7e415e7-324e-45f4-ba8c-057fb70fd22c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.231.31.202:3306/bitableind</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="sheet_support_block@boeva" uuid="a8334354-3a59-41b1-b08a-0713cf33125c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://address=(protocol=tcp)(host=fdbd:dc61:ff:6:f6f0:27:cad7:9a11)(port=3306)/sheet_support_block</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="base_ai@boecn" uuid="8104d340-6ac7-4e62-8917-2c9daaed7984">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://address=(protocol=tcp)(host=fdbd:dc03:ff:501:7de8:20ba:d7da:4586)(port=3306)/base_ai</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="base_ai@boeva" uuid="e4a00239-6c31-492c-91ef-1c943fdcc420">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://address=(protocol=tcp)(host=fdbd:dc61:ff:6:c7bd:d95:e021:592e)(port=3306)/base_ai</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="base_form@boecn" uuid="33d2e7bc-dc74-427e-b00e-d12a792250f8">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://address=(protocol=tcp)(host=fdbd:dc03:ff:501:a407:4e4f:f687:c1f3)(port=3306)/base_form</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="base_form@boeva" uuid="ee93a9f9-f06e-4a14-b85c-4501a8bc18b9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.231.100.45:3306/base_form</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitable@boecn" uuid="cc878729-20da-4073-97ef-f7a6fa6745f9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.174.224.177:3306/bitable</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitable_core@boecn" uuid="d05c55e8-9737-49ee-96eb-e5c20fa21961">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.225.149.247:3306/bitable_core</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitable_shard@boecn" uuid="fd1c5110-2dd8-4d43-839d-e2bb9d657a09">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.225.146.81:3306/bitable_history_shard</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitable_shard@boeva" uuid="1b2d6c72-e54c-465f-a1fc-e8eec07b0090">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.231.107.186:3306/bitable_shard</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitable@boeva" uuid="efa06243-e2b8-458b-ac89-ced4502e9545">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.231.25.103:3306/bitable</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitable_core@boeva" uuid="0f8333a6-d72e-498b-9acc-b8980e0eaa7a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.231.98.212:3306/bitable_core</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="marketplace_eco@boecn" uuid="3c682bd4-2be7-47b4-b70c-fb5848f469ad">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://address=(protocol=tcp)(host=fdbd:dc03:ff:501:50e5:df85:4f4b:b6e9)(port=3306)/marketplace_eco</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="marketplace_eco@boeva" uuid="6b52e949-76c0-407a-a3ee-18b8a7a88294">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.231.110.109:3308/marketplace_eco</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitable_extend@boecn" uuid="3650cd19-b4e2-417f-8f49-636523237153">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://address=(protocol=tcp)(host=fdbd:dc03:ff:501:e898:54da:7f66:ad30)(port=3306)/bitable_extend</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitable_extend@boeva" uuid="fe99439f-f69e-4d52-8126-a4a67df5d0b2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://address=(protocol=tcp)(host=fdbd:dc61:ff:6:bd46:dbcc:2fde:73e8)(port=3306)/bitable_extend</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
