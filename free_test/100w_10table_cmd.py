@@ -11,7 +11,7 @@ if __name__ == '__main__':
         'tblCl51vxCzho9xD',
         'tblUSJQFsruuXKmJ',
     ]
-    session = 'XN0YXJ0-96fo3706-aca6-435d-90a4-fbbcb6bc567f-WVuZA'
+    session = ''
     for tableToekn in tableTokens:
         cmd = ("./base perf run -n copy_paste_records --url "
                f"https://yalixw0asad.feishu.cn/base/E7rDbSPOoa4Zl3sVqWFcvRjJnfh\?table\={tableToekn} -s {session} -p "

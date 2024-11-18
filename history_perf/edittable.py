@@ -55,7 +55,7 @@ table_token_list =[
 
 if __name__ == '__main__':
     domain_jp = "https://yalixw0asad.feishu.cn/"
-    session = "XN0YXJ0-6bbgaa77-4277-4e9d-bcc0-0af9e54e7200-WVuZA"
+    session = ""
     headers = {"x-tt-stress": "true", "env": "pre_release"}
     parent_token = "BICpbUvRoajOWdsmNc5jbn9mpff"
     for table_token in table_token_list:

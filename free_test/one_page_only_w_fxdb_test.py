@@ -26,7 +26,7 @@ if __name__ == '__main__':
         "appid":"cli_a43deefb6078d01c",
         "passcode":"We4QaoymSF5ZytRFv9k5vfqNQUih3nON"
     }
-    session = "XN0YXJ0-0bai0bac-b9b6-4d4d-826a-de57815cbfin-WVuZA"
+    session = ""
     cli = Openapi(domain,app["appid"],app["passcode"])
     cli.http_client.set_cookies({"session":session})
     cli.set_access_token_user().set_access_token_default("u")

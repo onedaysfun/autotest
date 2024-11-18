@@ -391,7 +391,7 @@ if __name__ == '__main__':
         "app_id": "cli_a21752576078d01c",
         "app_secret": "P1831odz4WRKJlyROnmlKd4rseIba417"
     }
-    session = "XN0YXJ0-ec2t0563-c01b-4bee-ba52-5b227e52aagh-WVuZA"
+    session = ""
     cli = Openapi(domain,base_boe['app_id'], base_boe['app_secret'])
     cli.session = session
     # cli.http_client.set_headers({"x-tt-env":"boe_copy_mq_point_kill"})

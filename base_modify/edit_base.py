@@ -87,7 +87,7 @@ class Edit:
 
 if __name__ == '__main__':
     url = "https://jvj3hlmfca.feishu-boe.cn/base/CoczboJNUasQrps3YrBb7dEVcbc"
-    session = "XN0YXJ0-c30r05b3-bb2c-456a-aa5b-61c1622d98ti-WVuZA"
+    session = ""
     # 初始化base消息
     star = Edit(url, session)
     # 初始化需要操作的table信息 选择操作第一个table

@@ -3,7 +3,7 @@ import time
 from common import send_message_cs
 
 domain = "https://y5vna3awkt.larksuite-boe.com"
-session = "XN0YXJ0-072l64e9-7b21-4068-9804-0764588f7i63-WVuZA"
+session = ""
 token = "tblyAXv1zzAJSzVz"
 parent_token = "SVVAbJqpPahLWosrprybLO56v7f"
 table_rev = 0

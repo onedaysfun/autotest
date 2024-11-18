@@ -9,7 +9,7 @@ if __name__ == '__main__':
     }
     id = "cli_a21752576078d01c"
     password = "P1831odz4WRKJlyROnmlKd4rseIba417"
-    session = "XN0YXJ0-907u0825-9e65-434f-b945-33117ae17cmo-WVuZA"
+    session = ""
     cli = common_openapi.Openapi(domain, id, password)
     cli.session = session
     cli.set_access_token_user().set_access_token_default("u")

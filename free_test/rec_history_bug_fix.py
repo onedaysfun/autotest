@@ -3,8 +3,8 @@ from common.base64_en_or_decode import base64encode, base64decode
 
 if __name__ == '__main__':
     domain = "https://bytedance.feishu-boe.net/"
-    session = "XN0YXJ0-442o1bf7-ab2f-4a3a-ac1e-51c42c1056og-WVuZA"
-    session2 = "XN0YXJ0-a93qb4d5-7ecf-4552-9cb4-2c072cb1advo-WVuZA"
+    session = ""
+    session2 = ""
     token = "tbljz7aNPMuTJxWy"
     parent_token = "NQOmb6qCeabM3GsXZQCbJFo9cTg"
     table_rev = 3

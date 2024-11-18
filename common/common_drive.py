@@ -123,7 +123,7 @@ if __name__ == '__main__':
     domain = "https://e5test1655436560.larkoffice.com"
     mount_token = "Rx9vbCNvWaFwRnsdxqjcIy5Lnig"
     mount_point = "bitable"
-    session = "XN0YXJ0-4a3laaf7-ed84-45ad-941f-6ef8a8a5ae55-WVuZA"
+    session = ""
     upload_task = Upload(path, domain, mount_token, mount_point, session)
     # print(os.path.getsize(path))
     upload_task.prepare().merge_block().finsh()

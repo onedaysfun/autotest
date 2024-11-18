@@ -14,7 +14,7 @@ def get_cmd(**kwargs):
 if __name__ == '__main__':
     base_token = 'O8oNbUYSNaBZG4sxJYAbZYD1cjf'
     table_token = 'tblnvMReHFrY1EA2'
-    session = 'XN0YXJ0-442o1bf7-ab2f-4a3a-ac1e-51c42c1056og-WVuZA'
+    session = ''
     record_num_all = 100000
     cmd = get_cmd(base_token=base_token, table_token=table_token, session=session, record_num_all=record_num_all)
     print(cmd)

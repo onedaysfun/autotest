@@ -25,7 +25,7 @@ if __name__ == '__main__':
     table_rev = 251
     base_rev = 0
     domain = 'https://bytedance.feishu-boe.net'
-    session = 'XN0YXJ0-dd5ic30d-5c00-4ae6-a2d5-3ec04d9844pj-WVuZA'
+    session = ''
 
     # init table edit class
     cli = EditTable(session, table, table_rev, parent_token, domain)

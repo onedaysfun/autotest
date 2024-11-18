@@ -2,7 +2,7 @@ from common import common_http, base64_en_or_decode, send_message_cs
 
 if __name__ == '__main__':
     domain = "https://bitable-test.feishu-boe.cn"
-    session = "XN0YXJ0-0bai0bac-b9b6-4d4d-826a-de57815cbfin-WVuZA"
+    session = ""
     base_token = "SH94bEPjxauzRasdcCWb8LO5c2f"
     table_token = "tbllSswmHN0GHPLE"
     field_id = "fldToMUy5Q"

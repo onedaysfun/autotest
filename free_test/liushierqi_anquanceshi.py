@@ -7,7 +7,7 @@ perf_headers = {
 
 
 def init_edit_table(table, rev):
-    session = 'XN0YXJ0-96fo3706-aca6-435d-90a4-fbbcb6bc567f-WVuZA'
+    session = ''
     domain = 'https://yalixw0asad.feishu.cn'
     base_token = 'ZfcAbLpRyaGYfhsoYKHcn5SQnze'
     table_token = table
